@@ -1,13 +1,86 @@
 body{
     background-color: rgb(175, 255, 228);
+<<<<<<< HEAD
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+=======
 }
 header{
     background-color: rgb(185, 185, 185);
     height: 60px;
     margin: -10px;
     padding-top: 1px;
+>>>>>>> ce08c956a4b859a0c42da8016793db7152375eca
 }
-#headText{
+.container{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    height: 70%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
     text-align: center;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-bottom: 2px solid black;
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+}
+.input-group {
+    flex: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-group label{
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+.input-group input{
+    flex: 2;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 2.1em;
+}
+.input-group select{
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #f0f0f0;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+.buttons {
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: #d3d3d3;
+    font-size: 1em;
+    width: 300px;
+}
+button:hover {
+    background: #b0b0b0;
 }
