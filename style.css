@@ -1,6 +1,5 @@
 body{
     background-color: rgb(175, 255, 228);
-<<<<<<< HEAD
     border: 2px solid black;
     margin: 0;
     padding: 0;
@@ -8,14 +7,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-=======
-}
-header{
-    background-color: rgb(185, 185, 185);
-    height: 60px;
-    margin: -10px;
-    padding-top: 1px;
->>>>>>> ce08c956a4b859a0c42da8016793db7152375eca
 }
 .container{
     background-color: white;
