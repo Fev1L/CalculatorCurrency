@@ -33,6 +33,12 @@ h1{
     align-items: center;
     margin: auto 0;
 }
+.all-currency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0;
+}
 .input-group {
     flex: flex;
     align-items: center;
@@ -66,12 +72,13 @@ h1{
 button {
     padding: 10px 20px;
     margin: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     cursor: pointer;
     background: #d3d3d3;
     font-size: 1em;
     width: 300px;
-    height: 100px;
+    height: 50px;
+    border-radius: 15px;
 }
 button:hover {
     background: #b0b0b0;

@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Currency Calkulator</h1>
+        <h1>Currency Calculator</h1>
         <div class="inputs-container">
             <div class="input-group">
                 <label for="enter">Enter: </label>
@@ -24,7 +24,7 @@
                 </select>
             </div>
     
-            <div class="input-group">
+            <div class="input-group one-currency" style="display: flex;">
                 <label for="result">Result: </label>
                 <input type="number" id="result" readonly>
                 <select id="result-currency">
@@ -36,12 +36,60 @@
                     <option value="cny">CNY</option>
                 </select>
             </div>
+
+            <div class="all-currency" style="display: none;">
+                <div class="input-group">
+                    <label for="result">Result: </label>
+                    <input type="number" id="result" readonly>
+                    <select id="result-currency">
+                        <option value="gbp">GBP</option>
+                        <option value="usd" style="display: none;">USD</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="result">Result: </label>
+                    <input type="number" id="result" readonly>
+                    <select id="result-currency">
+                        <option value="eur" >EUR</option>
+                        <option value="usd" style="display: none;">USD</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="result">Result: </label>
+                    <input type="number" id="result" readonly>
+                    <select id="result-currency">
+                        <option value="pln">PLN</option>
+                        <option value="usd" style="display: none;">USD</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="result">Result: </label>
+                    <input type="number" id="result" readonly>
+                    <select id="result-currency">
+                        <option value="krw">KRW</option>
+                        <option value="usd" style="display: none;">USD</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="result">Result: </label>
+                    <input type="number" id="result" readonly>
+                    <select id="result-currency">
+                        <option value="cny">CNY</option>
+                        <option value="usd" style="display: none;">USD</option>
+                    </select>
+                </div>
+            </div>
+            
         </div>
         
         <div class="buttons">
             <button id="submit" onclick="submitClick()">Submit</button>
             <button id="clear" onclick="clearClick()">Clear</button>
-            <button id="all-currency">All Currency</button>
+            <button id="edit-currency" onclick="currencyClick()">All Currency</button>
         </div>
     </div>
     <script src="script.js"></script>
