@@ -24,7 +24,7 @@
 ### Example Usage
 1. Enter the amount in the input field.
 2. Select the source and target currencies.
-3. Click the "Convert" button to see the converted amount.
+3. Click the "Submit" button to see the converted amount.
 
 ### Project Structure
 - `index.html` — The main HTML file containing the structure of the app.
